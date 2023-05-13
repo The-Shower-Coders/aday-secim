@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class="center">
+            <div class="inp">
+                <h5>Aday Seçim</h5>
+                <div class="flex">
+                    <select name="aday" id="aday">
+                        <option value="none">Aday Seçiniz</option>
+                        <option value="er">Recep Tayyip Erdoğan</option>
+                        <option value="ko">Kemal Kılıçdaroğlu</option>
+                        <option value="si">Sinan Oğan</option>
+                    </select>
+                    <div class="onay" onclick="sec()">Onayla</div>
+                </div>
+                <br /><br />
+                <table>
+                    <tr>
+                        <th>Recep Tayyip Erdoğan</th>
+                        <th>Kemal Kılıçdaroğlu</th>
+                        <th>Sinan Oğan</th>
+                    </tr>
+                    <tr>
+                        <td id="er">0</td>
+                        <td id="ko">0</td>
+                        <td id="si">0</td>
+                    </tr>
+                </table>
+                <br>
+                <div>By Murat & Hacer Nisa</div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
